@@ -1,0 +1,18 @@
+{
+  "name": "plac",
+  "version": "1.0.0",
+  
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node src/scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Scraper para PlazaVea utilizando Puppeteer",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^23.7.1"
+  }
+}
