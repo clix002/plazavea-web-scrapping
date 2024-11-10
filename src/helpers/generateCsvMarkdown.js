@@ -1,11 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const { categories } = require('../../config/categories'); // Importa las categorías desde el archivo categories.js
+const { categories } = require('../../config/categories'); 
 
-// Inicializa la ruta para el archivo Markdown de salida
 const markdownFilePath = path.join(__dirname, '../../README.md');
 
-// Comienza el contenido del archivo Markdown
 let markdownContent = `# Plazavea Web Scrapping - CSV Files
 
 Este archivo contiene enlaces a los archivos CSV generados para cada categoría.
@@ -18,6 +16,12 @@ npm install
 
 \`\`\`bash
 npm run start
+\`\`\`
+
+
+## Opcional
+\`\`\`bash
+node .\src\helpers\generateCsvMarkdown.js
 \`\`\`
 
 ## en la carpeta data 📁 se generará archivo.csv 
